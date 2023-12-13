@@ -160,6 +160,7 @@ public class Kalkulator extends JFrame {
 				first=Double.parseDouble(textField.getText());
 				textField.setText("");
 				operasi="+";
+				lblNewLabel.setIcon(null);
 			}
 		});
 		btnTambah.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -183,6 +184,7 @@ public class Kalkulator extends JFrame {
 				first=Double.parseDouble(textField.getText());
 				textField.setText("");
 				operasi="-";
+				lblNewLabel.setIcon(null);
 			}
 		});
 		btnKurang.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -217,6 +219,7 @@ public class Kalkulator extends JFrame {
 				first=Double.parseDouble(textField.getText());
 				textField.setText("");
 				operasi="*";
+				lblNewLabel.setIcon(null);
 			}
 		});
 		btnKali.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -251,6 +254,7 @@ public class Kalkulator extends JFrame {
 				first=Double.parseDouble(textField.getText());
 				textField.setText("");
 				operasi="/";
+				lblNewLabel.setIcon(null);
 			}
 		});
 		btnBagi.setFont(new Font("Tahoma", Font.BOLD, 18));
@@ -297,6 +301,7 @@ public class Kalkulator extends JFrame {
 					textField.setText(answer);
 				}
 				lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Ahda\\Downloads\\3d-emoji.jpg"));
+				
 
 			}
 		});
@@ -310,6 +315,7 @@ public class Kalkulator extends JFrame {
 				first=Double.parseDouble(textField.getText());
 				textField.setText("");
 				operasi="%";
+				lblNewLabel.setIcon(null);
 				
 			}
 		});
